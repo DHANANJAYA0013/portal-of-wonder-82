@@ -9,7 +9,7 @@ interface SplashScreenProps {
 const SplashScreen = ({ onComplete }: SplashScreenProps) => {
   const [progress, setProgress] = useState(0);
   const [displayText, setDisplayText] = useState('');
-  const fullName = 'Your Name';
+  const fullName = 'Dhananjaya';
 
   useEffect(() => {
     let i = 0;

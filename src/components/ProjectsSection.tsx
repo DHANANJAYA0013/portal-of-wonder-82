@@ -4,44 +4,44 @@ import { ExternalLink, Github, X } from 'lucide-react';
 
 const projects = [
   {
-    id: 1, title: 'E-Commerce Platform', category: 'MERN',
-    description: 'Full-stack e-commerce platform with payment integration, user authentication, and admin dashboard.',
-    tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
-    live: '#', github: '#',
-  },
-  {
-    id: 2, title: 'Task Manager App', category: 'MERN',
-    description: 'Collaborative task management tool with real-time updates and team features.',
-    tech: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
-    live: '#', github: '#',
-  },
-  {
-    id: 3, title: 'Weather App', category: 'Flutter',
-    description: 'Cross-platform weather application with beautiful UI and location-based forecasts.',
-    tech: ['Flutter', 'Dart', 'OpenWeather API'],
-    live: '#', github: '#',
-  },
-  {
-    id: 4, title: 'AI Chatbot', category: 'AI',
-    description: 'Intelligent chatbot powered by machine learning for customer support automation.',
-    tech: ['Python', 'TensorFlow', 'React', 'Flask'],
-    live: '#', github: '#',
-  },
-  {
-    id: 5, title: 'Portfolio 3D', category: 'MERN',
-    description: 'Interactive 3D portfolio website built with Three.js and React.',
-    tech: ['React', 'Three.js', 'Framer Motion'],
-    live: '#', github: '#',
-  },
-  {
-    id: 6, title: 'Fitness Tracker', category: 'Flutter',
-    description: 'Mobile fitness tracking app with workout plans and progress analytics.',
+    id: 1, title: 'ServeHub – Home Service Booking App', category: 'Flutter',
+    description: 'Built a multi-role Flutter app for customers and service providers. Integrated Firebase for real-time data sync and authentication. Included 6+ service categories and smooth booking management.',
     tech: ['Flutter', 'Firebase', 'Dart'],
+    live: '#', github: '#',
+  },
+  {
+    id: 2, title: 'BookTrack - Library Management System', category: 'Python',
+    description: 'Designed a full-featured system for tracking book checkouts, returns, and fines. Created an intuitive admin interface and automated reminders.',
+    tech: ['Python', 'Django', 'MySQL'],
+    live: '#', github: '#',
+  },
+  {
+    id: 3, title: 'TeamTrack - Employee Management System', category: 'Python',
+    description: 'Developed a dashboard for managing employee records and reports. Enhanced productivity through easy data access and CRUD operations.',
+    tech: ['Python', 'Django', 'SQLite'],
+    live: '#', github: '#',
+  },
+  {
+    id: 4, title: 'GameZone – Gaming Website', category: 'Web',
+    description: 'Created an interactive gaming site with multiple games and review features. Integrated a simple UI for rating, reviewing, and exploring games seamlessly.',
+    tech: ['HTML', 'CSS', 'Flask', 'SQLite'],
+    live: '#', github: '#',
+  },
+  {
+    id: 5, title: 'Portfolio Website', category: 'Web',
+    description: 'Modern and interactive portfolio website showcasing projects, skills, and experience. Features 3D animations, smooth scrolling, and responsive design.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Three.js', 'Framer Motion'],
+    live: '#', github: '#',
+  },
+  {
+    id: 6, title: 'Profile Finder', category: 'Web',
+    description: 'Web application to search and discover GitHub profiles with detailed information. Displays repositories, followers, and contribution statistics.',
+    tech: ['JavaScript', 'HTML', 'CSS', 'GitHub API'],
     live: '#', github: '#',
   },
 ];
 
-const filters = ['All', 'MERN', 'Flutter', 'AI'];
+const filters = ['All', 'Flutter', 'Python', 'Web'];
 
 const ProjectsSection = () => {
   const [activeFilter, setActiveFilter] = useState('All');

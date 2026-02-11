@@ -35,7 +35,7 @@ const HeroSection = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
             >
               Hi, I'm{' '}
-              <span className="gradient-text">Your Name</span>
+              <span className="gradient-text">Dhananjaya</span>
             </motion.h1>
 
             <motion.p
@@ -44,7 +44,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
             >
-              Full Stack Developer | MCA Student | MERN Stack Developer
+              Full Stack Developer | MCA Student | Web Developer
             </motion.p>
 
             <motion.div
@@ -61,7 +61,8 @@ const HeroSection = () => {
                 View Projects
               </a>
               <a
-                href="#contact"
+                href="/src/components/resume/ResumeD6.pdf"
+                download
                 className="px-8 py-3 border border-primary/50 text-primary rounded-lg font-semibold font-display
                   hover:bg-primary/10 transition-all duration-300 hover:scale-105"
               >

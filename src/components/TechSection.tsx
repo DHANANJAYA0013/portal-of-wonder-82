@@ -1,16 +1,22 @@
 import { motion } from 'framer-motion';
 
 const technologies = [
-  { name: 'HTML5', color: 'hsl(12, 77%, 52%)' },
-  { name: 'CSS3', color: 'hsl(205, 82%, 51%)' },
+  { name: 'Java', color: 'hsl(10, 75%, 47%)' },
+  { name: 'Dart', color: 'hsl(207, 90%, 61%)' },
+  { name: 'Python', color: 'hsl(205, 56%, 45%)' },
   { name: 'JavaScript', color: 'hsl(48, 89%, 50%)' },
-  { name: 'React', color: 'hsl(193, 95%, 68%)' },
-  { name: 'Node.js', color: 'hsl(120, 47%, 45%)' },
-  { name: 'MongoDB', color: 'hsl(120, 41%, 41%)' },
-  { name: 'Express', color: 'hsl(0, 0%, 70%)' },
+  { name: 'HTML', color: 'hsl(12, 77%, 52%)' },
+  { name: 'CSS', color: 'hsl(205, 82%, 51%)' },
+  { name: 'C', color: 'hsl(210, 18%, 44%)' },
   { name: 'Flutter', color: 'hsl(207, 90%, 61%)' },
+  { name: 'Django', color: 'hsl(120, 41%, 41%)' },
+  { name: 'Flask', color: 'hsl(0, 0%, 70%)' },
+  { name: 'Firebase', color: 'hsl(45, 100%, 51%)' },
+  { name: 'MySQL', color: 'hsl(205, 56%, 45%)' },
+  { name: 'SQLite', color: 'hsl(205, 56%, 60%)' },
+  { name: 'MongoDB', color: 'hsl(120, 41%, 41%)' },
   { name: 'Git', color: 'hsl(10, 75%, 47%)' },
-  { name: 'Three.js', color: 'hsl(0, 0%, 100%)' },
+  { name: 'GitHub', color: 'hsl(0, 0%, 100%)' },
 ];
 
 const containerVariants = {

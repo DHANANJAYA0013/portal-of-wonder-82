@@ -10,9 +10,9 @@ const contactSchema = z.object({
 });
 
 const socials = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
+  { icon: Github, href: 'https://github.com/dhananjaya0013', label: 'GitHub' },
   { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Mail, href: 'mailto:your@email.com', label: 'Email' },
+  { icon: Mail, href: 'mailto:dhananjayanchan32@gmail.com', label: 'Email' },
 ];
 
 const ContactSection = () => {

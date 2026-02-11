@@ -76,18 +76,36 @@ const AboutSection = () => {
               Full Stack Developer & MCA Student
             </h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I'm a passionate full-stack developer currently pursuing my Master of Computer Applications (MCA).
-              I specialize in the MERN stack and love building interactive web applications with modern technologies.
+              To work as a Full Stack Software Engineer in a collaborative environment that values teamwork, 
+              code quality, and continuous improvement, while developing efficient, maintainable, and scalable 
+              digital products.
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-6">
-              My goal is to create impactful digital experiences that combine beautiful design with robust functionality.
-              I'm constantly learning and exploring new technologies to expand my skill set.
-            </p>
+            
+            <div className="mb-6">
+              <h4 className="text-lg font-semibold mb-3">Education</h4>
+              <div className="space-y-3">
+                <div>
+                  <p className="font-medium">Master of Computer Application</p>
+                  <p className="text-sm text-muted-foreground">NMAM Institute of Technology (2024-2026)</p>
+                  <p className="text-sm text-muted-foreground">CGPA: 8.56 (2025)</p>
+                </div>
+                <div>
+                  <p className="font-medium">Bachelor of Computer Application</p>
+                  <p className="text-sm text-muted-foreground">Govt. First Grade College, Thekkandiyoor, Udupi (2021-2024)</p>
+                  <p className="text-sm text-muted-foreground">CGPA: 8.17</p>
+                </div>
+                <div>
+                  <p className="font-medium">SSLC (Class X)</p>
+                  <p className="text-sm text-muted-foreground">St. Francis Xavier High School, Udyavara (2019)</p>
+                  <p className="text-sm text-muted-foreground">Percentage: 88.8%</p>
+                </div>
+              </div>
+            </div>
 
             <div className="grid grid-cols-3 gap-6">
-              <AnimatedCounter end={15} label="Projects" icon={Code} />
+              <AnimatedCounter end={6} label="Projects" icon={Code} />
               <AnimatedCounter end={10} label="Technologies" icon={BookOpen} />
-              <AnimatedCounter end={8} label="Certificates" icon={Award} />
+              <AnimatedCounter end={4} label="Certificates" icon={Award} />
             </div>
           </motion.div>
         </div>

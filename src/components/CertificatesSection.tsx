@@ -7,12 +7,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const certificates = [
-  { id: 1, title: 'React Developer Certification', issuer: 'Meta', year: '2024' },
-  { id: 2, title: 'Full Stack Web Development', issuer: 'Coursera', year: '2024' },
-  { id: 3, title: 'MongoDB Associate Developer', issuer: 'MongoDB University', year: '2023' },
-  { id: 4, title: 'JavaScript Algorithms', issuer: 'freeCodeCamp', year: '2023' },
-  { id: 5, title: 'Flutter Development Bootcamp', issuer: 'Udemy', year: '2024' },
-  { id: 6, title: 'Node.js Advanced Concepts', issuer: 'Udemy', year: '2023' },
+  { id: 1, title: 'MongoDB - The Complete Developer\'s Guide 2024', issuer: 'Udemy', year: '2024' },
+  { id: 2, title: 'Research Methodology', issuer: 'Coursera', year: '2025' },
+  { id: 3, title: 'Flutter Development Bootcamp', issuer: 'Udemy', year: '2024' },
+  { id: 4, title: 'Mobile App Development', issuer: 'Udemy', year: '2024' },
 ];
 
 const CertificatesSection = () => {
