@@ -1,4 +1,4 @@
-import { Suspense, useRef } from 'react';
+import { Suspense, useRef, useState, useEffect } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Float, MeshDistortMaterial, Sphere, Stars } from '@react-three/drei';
 import * as THREE from 'three';
@@ -35,9 +35,22 @@ interface Scene3DProps {
 }
 
 const Scene3D = ({ className = '', minimal = false }: Scene3DProps) => {
+  const [hasError, setHasError] = useState(false);
+
+  if (hasError) {
+    return <div className={className} style={{ background: 'transparent' }} />;
+  }
+
   return (
     <div className={className}>
-      <Canvas camera={{ position: [0, 0, 5], fov: 45 }} dpr={[1, 2]}>
+      <Canvas 
+        camera={{ position: [0, 0, 5], fov: 45 }} 
+        dpr={[1, 2]}
+        onCreated={(state) => {
+          state.gl.setClearColor('#000000', 0);
+        }}
+        onError={() => setHasError(true)}
+      >
         <Suspense fallback={null}>
           <ambientLight intensity={0.4} />
           <directionalLight position={[10, 10, 5]} intensity={1} />

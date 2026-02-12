@@ -37,7 +37,7 @@ const SplashScreen = ({ onComplete }: SplashScreenProps) => {
       clearInterval(typingInterval);
       clearInterval(progressInterval);
     };
-  }, []);
+  }, [onComplete]);
 
   return (
     <motion.div

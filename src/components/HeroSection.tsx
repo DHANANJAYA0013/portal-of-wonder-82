@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowDown } from 'lucide-react';
 import Scene3D from './Scene3D';
-import profileHero from '@/assets/profile-hero.png';
+import profileHero from '@/assets/profile-hero.webp';
 
 const HeroSection = () => {
   return (
@@ -61,7 +61,7 @@ const HeroSection = () => {
                 View Projects
               </a>
               <a
-                href="/src/components/resume/ResumeD6.pdf"
+                href="/src/assets/Dhananjaya(Resume).pdf"
                 download
                 className="px-8 py-3 border border-primary/50 text-primary rounded-lg font-semibold font-display
                   hover:bg-primary/10 transition-all duration-300 hover:scale-105"
